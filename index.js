@@ -1,5 +1,5 @@
 // Add your doToElementsInArray() function here:
-function doToElementsInAnArray(array, callback) {
+function doToElementsInArray(array, callback) {
   array.forEach(callback);
 }
 
@@ -7,3 +7,4 @@ function doToElementsInAnArray(array, callback) {
 function changeCompletely(element, index, array) {
   array[index] = Math.floor(Math.random() * 100)
 }
+
