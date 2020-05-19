@@ -5,5 +5,5 @@ function doToElementsInAnArray(array, callback) {
 
 // Add your changeCompletely() function here:
 function changeCompletely(element, index, array) {
-  array.forEach(doToElementsInAnArray)
+  array.prototype.forEach(doToElementsInAnArray)
 }
