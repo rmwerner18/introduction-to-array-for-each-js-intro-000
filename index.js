@@ -1,5 +1,5 @@
 // Add your doToElementsInArray() function here:
-function doToElementsInAnArray() {
+function doToElementsInAnArray(element, index, array) {
   array.prototype.forEach(console.log("hello"))
 }
 
